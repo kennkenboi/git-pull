@@ -22,7 +22,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -   name: Pull Code
-                uses: kennkenboi/git-pull@v1
+                uses: kennkenboi/git-pull@v1.0
                 env:
                     DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
                     DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
